@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #242b2e;
+}
+
+.content{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.counter_block{
+    width: 500px;
+    height: 70vh;
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.count p {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button{
+    width: 45%;
+    height: 40px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #406d7f;
+    letter-spacing: 0.5x;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.buttons button:hover {
+    background: #fff;
+    color: #242b2e;
+}
